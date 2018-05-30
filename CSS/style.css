@@ -1,0 +1,80 @@
+
+body {
+  background-color:pink;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+#logo{
+  color:#171a17;
+  text-align: center;
+  font-family:Arvo;serif;
+  font-size: 30px;
+}
+
+
+#image1{
+  margin-top: 30px;
+text-align: center;
+
+}
+
+.corps{
+position: absolute;
+}
+
+#rond1 {
+position: absolute;
+background-position: center;
+background:#d72f34;
+border-radius:50%;
+width:50px;
+height:50px;
+transform: translate(566px,-419px);
+opacity:0.8;
+}
+
+#rond2 {
+position: absolute;
+background-position: center;
+background:#360e0d;
+border-radius:50%;
+width:50px;
+height:50px;
+transform: translate(562px,-285px);
+opacity:0.8;
+}
+
+#rond3 {
+position: absolute;
+background-position: center;
+background:#360e0d;
+border-radius:50%;
+width:50px;
+height:50px;
+transform: translate(672px,-320px);
+opacity:0.8;
+}
+
+#rond4 {
+position: absolute;
+background-position: center;
+background:#360e0d;
+border-radius:50%;
+width:50px;
+height:50px;
+transform: translate(652px,-266px);
+opacity:0.8;
+}
+
+#rond5 {
+position: absolute;
+background-position: center;
+background:#360e0d;
+border-radius:50%;
+width:50px;
+height:50px;
+transform: translate(632px,-80px);
+opacity:0.8;
+}
