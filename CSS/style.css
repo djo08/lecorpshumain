@@ -18,9 +18,11 @@ body {
 text-align: center;
 }
 
-center {
-  display: flex;
-  justify-content: center;
+
+.ensemble{
+display: flex;
+justify-content: center;
+
 }
 
 .corps{
@@ -28,6 +30,8 @@ center {
   width: 140px;
   height: 500px;
 position: absolute;
+text-align: center;
+margin-right: 180px;
 }
 
 .cercle{
@@ -37,6 +41,7 @@ position: absolute;
   width:50px;
   height:50px;
   opacity:0.8;
+  margin-left: 44px;
 }
 
 #rond1 {
@@ -74,6 +79,7 @@ p {
   visibility: hidden;
 width: 140px;
 height: 500px;
+transform: translate(156px,59px);
 }
 #rond1:hover .txt1 {
 	visibility: visible;
@@ -83,7 +89,7 @@ height: 500px;
   visibility: hidden;
   width: 140px;
   height: 500px;
-  transform: translate(150px,-58px);
+  transform: translate(58px,0px);
 }
 #rond2:hover .txt2 {
 	visibility: visible;
@@ -93,7 +99,7 @@ height: 500px;
   visibility: hidden;
   width: 140px;
   height: 500px;
-  transform: translate(150px,-120px);
+  transform: translate(72px,-72px);
 }
 #rond3:hover .txt3 {
 	visibility: visible;
@@ -103,7 +109,7 @@ height: 500px;
   visibility: hidden;
   width: 140px;
   height: 500px;
-  transform: translate(226px,-369px);
+  transform: translate(88px,-370px);
 }
 #rond4:hover .txt4 {
 	visibility: visible;
@@ -113,7 +119,7 @@ height: 500px;
   visibility: hidden;
   width: 140px;
   height: 500px;
-  transform: translate(241px,-276px);
+  transform: translate(120px,-275px);
 }
 #rond5:hover .txt5 {
 	visibility: visible;
@@ -123,7 +129,7 @@ height: 500px;
   visibility: hidden;
   width: 140px;
   height: 500px;
-  transform: translate(241px,-127px);
+  transform: translate(156px,-102px);
 }
 #rond6:hover .txt6 {
 	visibility: visible;
