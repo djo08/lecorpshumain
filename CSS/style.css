@@ -13,68 +13,118 @@ body {
   font-size: 30px;
 }
 
-
 #image1{
   margin-top: 30px;
 text-align: center;
+}
 
+center {
+  display: flex;
+  justify-content: center;
 }
 
 .corps{
+  background-image: url(../PHOTOS/corps.png);
+  width: 140px;
+  height: 500px;
 position: absolute;
+}
+
+.cercle{
+  position:relative;
+  background:#360e0d;
+  border-radius:50%;
+  width:50px;
+  height:50px;
+  opacity:0.8;
 }
 
 #rond1 {
-position: absolute;
-background-position: center;
-background:#d72f34;
-border-radius:50%;
-width:50px;
-height:50px;
-transform: translate(566px,-419px);
-opacity:0.8;
+transform: translate(-50px,85px);
 }
 
 #rond2 {
-position: absolute;
-background-position: center;
-background:#360e0d;
-border-radius:50%;
-width:50px;
-height:50px;
-transform: translate(562px,-285px);
-opacity:0.8;
+transform: translate(54px,136px);
 }
 
 #rond3 {
-position: absolute;
-background-position: center;
-background:#360e0d;
-border-radius:50%;
-width:50px;
-height:50px;
-transform: translate(672px,-320px);
-opacity:0.8;
+transform: translate(32px,140px);
 }
 
 #rond4 {
-position: absolute;
-background-position: center;
-background:#360e0d;
-border-radius:50%;
-width:50px;
-height:50px;
-transform: translate(652px,-266px);
-opacity:0.8;
+transform: translate(16px,273px);
 }
 
 #rond5 {
-position: absolute;
-background-position: center;
-background:#360e0d;
-border-radius:50%;
-width:50px;
-height:50px;
-transform: translate(632px,-80px);
-opacity:0.8;
+transform: translate(-23px,148px);
+}
+
+#rond6 {
+transform: translate(-53px,-34px);
+}
+
+p {
+  position: absolute;
+  transform: translate(235px,-5px);
+}
+
+
+
+.txt1{
+  visibility: hidden;
+width: 140px;
+height: 500px;
+}
+#rond1:hover .txt1 {
+	visibility: visible;
+}
+
+.txt2{
+  visibility: hidden;
+  width: 140px;
+  height: 500px;
+  transform: translate(150px,-58px);
+}
+#rond2:hover .txt2 {
+	visibility: visible;
+}
+
+.txt3{
+  visibility: hidden;
+  width: 140px;
+  height: 500px;
+  transform: translate(150px,-120px);
+}
+#rond3:hover .txt3 {
+	visibility: visible;
+}
+
+.txt4{
+  visibility: hidden;
+  width: 140px;
+  height: 500px;
+  transform: translate(226px,-369px);
+}
+#rond4:hover .txt4 {
+	visibility: visible;
+}
+
+.txt5{
+  visibility: hidden;
+  width: 140px;
+  height: 500px;
+  transform: translate(241px,-276px);
+}
+#rond5:hover .txt5 {
+	visibility: visible;
+}
+
+.txt6{
+  visibility: hidden;
+  width: 140px;
+  height: 500px;
+  transform: translate(241px,-127px);
+}
+#rond6:hover .txt6 {
+	visibility: visible;
 }
